@@ -18,4 +18,4 @@ Spectogramlar oluşturulurken `noisereduce` kütüphanesi ile gürültüden arı
 
 + Elde edilen spectogramlardan beyaz padding çıkarıldı.
 + Grayscale, resize ve normalizasyon yapıldı.
-+ [np.array, etiket] listeleri halinde csv dosyalarına yazıldı.
++ [np.array, etiket] listelerinde orijinal ve gürültüsüz spectogramlar 2 ayrı csv dosyasına yazıldı.

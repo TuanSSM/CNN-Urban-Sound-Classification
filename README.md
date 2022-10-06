@@ -15,3 +15,7 @@ Spectogramlar oluşturulurken `noisereduce` kütüphanesi ile gürültüden arı
 | ![Vanilla Spectogram](media/vanilla_spectogram_example.png) | ![Noiseless Spectogram](media/noiseless_spectogram_example.png) |
 
 ## Ön İşleme
+
++ Elde edilen spectogramlardan beyaz padding çıkarıldı.
++ Grayscale, resize ve normalizasyon yapıldı.
++ [np.array, etiket] listeleri halinde csv dosyalarına yazıldı.
